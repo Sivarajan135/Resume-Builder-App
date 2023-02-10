@@ -39,9 +39,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.workExp]: (
       <div
         key={"workexp"}
-        className={`${styles.section} ${
-          info.workExp?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>{info.workExp.sectionTitle}</div>
         <div className={styles.content}>
@@ -99,9 +97,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.project]: (
       <div
         key={"project"}
-        className={`${styles.section} ${
-          info.project?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>{info.project.sectionTitle}</div>
         <div className={styles.content}>
@@ -152,9 +148,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.education]: (
       <div
         key={"education"}
-        className={`${styles.section} ${
-          info.education?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>
           {info.education?.sectionTitle}
@@ -188,9 +182,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.achievement]: (
       <div
         key={"achievement"}
-        className={`${styles.section} ${
-          info.achievement?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>
           {info.achievement?.sectionTitle}
@@ -213,9 +205,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.summary]: (
       <div
         key={"summary"}
-        className={`${styles.section} ${
-          info.summary?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>{info.summary?.sectionTitle}</div>
         <div className={styles.content}>
@@ -226,9 +216,7 @@ const Resume = forwardRef((props, ref) => {
     [sections.other]: (
       <div
         key={"other"}
-        className={`${styles.section} ${
-          info.other?.sectionTitle ? "" : styles.hidden
-        }`}
+        className={styles.section}
       >
         <div className={styles.sectionTitle}>{info.other?.sectionTitle}</div>
         <div className={styles.content}>
